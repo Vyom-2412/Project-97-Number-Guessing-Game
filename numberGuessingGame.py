@@ -12,10 +12,10 @@ while(chances < 5):
         break
 
     elif(guess < number):
-        print("Your guess was too low. (Hint : Guess a number higher than", guess)
+        print("Your guess was too low. (Hint : Guess a number higher than)", guess)
     
     else:
-        print("Your guess was too high. (Hint : Guess a number lower than", guess)
+        print("Your guess was too high. (Hint : Guess a number lower than)", guess)
 
     chances +=1
 
