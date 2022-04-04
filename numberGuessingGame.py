@@ -2,9 +2,9 @@ import random
 print("NUmber Guessing Game")
 number=random.randint(1,10)
 chances = 0
-print("Guess a number between 1 and 10:")
+print("Guess a number between 1 and 20:")
 
-while(chances < 5):
+while(chances < 10):
     guess = int(input("Enter your guess :- "))
 
     if(guess == number):
@@ -19,5 +19,5 @@ while(chances < 5):
 
     chances +=1
 
-if not(chances < 5):
+if not(chances < 10):
     print("YOU LOSE!! The number was", number)
